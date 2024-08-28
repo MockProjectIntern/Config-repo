@@ -1,0 +1,17 @@
+time:
+  zone: Asia/Bangkok
+
+api:
+  prefix: /api/v1
+
+database:
+  name: inventory-receipt
+  host: localhost
+  port: 3306
+  username: root
+  password: 123456
+
+token:
+  expiration: 2592000 #30 days
+  secretKey: a5RsQm2rhY3GMgD51qK3E+aYPoe5IsnfYD0QFydCoQ0=
+  expiration-refresh-token: 5184000 #60 days
