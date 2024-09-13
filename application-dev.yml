@@ -5,7 +5,7 @@ api:
   prefix: /api/v1
 
 database:
-  name: inventory-receipt
+  name: inventory_receipt
   host: localhost
   port: 3306
   username: root
